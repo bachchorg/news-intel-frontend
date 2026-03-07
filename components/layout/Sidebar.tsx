@@ -21,7 +21,7 @@ export function Sidebar() {
           <div className="w-7 h-7 bg-blue-500 rounded-lg flex items-center justify-center">
             <Newspaper size={14} />
           </div>
-          <span className="font-bold text-sm">NewsIntel</span>
+          <span className="font-bold text-sm">DashboardCuaSepTy</span>
         </div>
       </div>
       <nav className="flex-1 px-2 py-4 space-y-1">
@@ -42,7 +42,7 @@ export function Sidebar() {
         ))}
       </nav>
       <div className="px-4 py-3 border-t border-gray-700">
-        <p className="text-xs text-gray-500">NewsIntel v1.0</p>
+        <p className="text-xs text-gray-500">DashboardCuaSepTy v1.0</p>
       </div>
     </aside>
   );

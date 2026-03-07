@@ -5,7 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NewsIntel - News Intelligence Crawler',
+  title: 'DashboardCuaSepTy - News Intelligence Crawler',
   description: 'Real-time news monitoring and intelligence platform',
 };
 
