@@ -2,13 +2,14 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, Plus, Newspaper } from 'lucide-react';
+import { LayoutDashboard, Plus, Newspaper, ImageIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const links = [
   { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/sessions/new', label: 'New Session', icon: Plus },
   { href: '/sessions', label: 'Sessions', icon: Newspaper },
+  { href: '/image-research', label: 'Image Research', icon: ImageIcon },
 ];
 
 export function Sidebar() {
