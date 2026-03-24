@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, Plus, Newspaper, ImageIcon } from 'lucide-react';
+import { LayoutDashboard, Plus, Newspaper, ImageIcon, MessageSquare } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const links = [
@@ -10,6 +10,7 @@ const links = [
   { href: '/sessions/new', label: 'New Session', icon: Plus },
   { href: '/sessions', label: 'Sessions', icon: Newspaper },
   { href: '/image-research', label: 'Image Research', icon: ImageIcon },
+  { href: '/chat', label: 'AI Viết Báo', icon: MessageSquare },
 ];
 
 export function Sidebar() {

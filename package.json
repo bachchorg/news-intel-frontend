@@ -11,9 +11,12 @@
     "test:api:report": "npx playwright show-report"
   },
   "dependencies": {
+    "@langchain/anthropic": "^0.3.16",
+    "@langchain/core": "^0.3.45",
     "@microsoft/signalr": "^10.0.0",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
+    "langchain": "^0.3.20",
     "lucide-react": "^0.577.0",
     "next": "16.1.6",
     "react": "19.2.3",
