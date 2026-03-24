@@ -3,7 +3,7 @@ import { ChatInterface } from '@/components/chat/ChatInterface';
 
 export const metadata = {
   title: 'Trợ lý Viết Báo AI | DashboardCuaSepTy',
-  description: 'AI chatbot hỗ trợ viết báo phong cách znews.vn',
+  description: 'AI chatbot hỗ trợ viết báo chuyên nghiệp',
 };
 
 export default function ChatPage() {

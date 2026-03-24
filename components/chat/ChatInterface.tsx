@@ -250,7 +250,7 @@ export function ChatInterface() {
           </div>
           <div>
             <p className="font-semibold text-sm">Trợ lý Viết Báo AI</p>
-            <p className="text-xs text-gray-400">Phong cách znews.vn · Claude claude-sonnet-4-5</p>
+            <p className="text-xs text-gray-400">Phong cách báo điện tử · Claude claude-sonnet-4-5</p>
           </div>
         </div>
         {messages.length > 0 && (
@@ -275,7 +275,7 @@ export function ChatInterface() {
             <div>
               <h2 className="text-xl font-bold text-gray-100 mb-1">Trợ lý Viết Báo AI</h2>
               <p className="text-sm text-gray-400 max-w-sm">
-                Sẵn sàng hỗ trợ bạn viết bài theo phong cách znews.vn với 10 năm kinh nghiệm
+                Sẵn sàng hỗ trợ bạn viết bài theo phong cách báo điện tử chuyên nghiệp với 10 năm kinh nghiệm
                 báo chí tiếng Việt
               </p>
             </div>
